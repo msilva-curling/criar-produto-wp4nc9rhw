@@ -6,6 +6,7 @@ import Index from './pages/Index'
 import TasksPage from './pages/Tasks'
 import NotesPage from './pages/Notes'
 import SettingsPage from './pages/Settings'
+import ProfilePage from './pages/Profile'
 import NotFound from './pages/NotFound'
 import Layout from './components/Layout'
 
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/tasks" element={<TasksPage />} />
           <Route path="/notes" element={<NotesPage />} />
           <Route path="/settings" element={<SettingsPage />} />
+          <Route path="/profile" element={<ProfilePage />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
